@@ -10,7 +10,14 @@
     padding: 0;
     box-sizing: border-box;
     background-color: var(--color-slate-950);
+    text-decoration: none;
+    border: none;
     color: var(--color-slate-100);
+  }
+
+  ul,
+  ol {
+    list-style: none;
   }
 
   h1 {
