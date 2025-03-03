@@ -8,7 +8,7 @@ const Navbar = () => {
 
   return (
     <>
-      <div className="bg-neutral-800 w-full max-w-7xl mx-auto h-auto px-5 sm:px-10 rounded-xl">
+      <div className="bg-neutral-800 w-full max-w-7xl h-auto mx-auto px-5 sm:px-10 rounded-xl">
         <div className="w-full flex items-center justify-between">
           <div>
             <img
@@ -19,82 +19,76 @@ const Navbar = () => {
           </div>
 
           <div>
-            <div className="hidden sm:flex gap-8 text-lg font-semibold">
-              <a
-                href="#"
-                className="text-slate-100/80 hover:text-slate-100 duration-300"
-              >
-                Home
+            <nav className="hidden sm:flex gap-8 text-lg font-semibold">
+              <a href="#" className="cursor-pointer group">
+                <p className="hover:text-cyan-500 duration-200 ease-linear group-hover:-translate-y-1">
+                  Home
+                </p>
+                <div className="opacity-0 w-0 border-b border-cyan-400 duration-200 ease-linear group-hover:opacity-100 group-hover:w-full"></div>
               </a>
-              <a
-                href="#"
-                className="text-slate-100/80 hover:text-slate-100 duration-300"
-              >
-                Sobre
+              <a href="#" className="cursor-pointer group">
+                <p className="hover:text-cyan-500 duration-200 ease-linear group-hover:-translate-y-1">
+                  Sobre
+                </p>
+                <div className="opacity-0 w-0 border-b border-cyan-400 duration-200 ease-linear group-hover:opacity-100 group-hover:w-full"></div>
               </a>
-              <a
-                href="#"
-                className="text-slate-100/80 hover:text-slate-100 duration-300"
-              >
-                Skills
+              <a href="#" className="cursor-pointer group">
+                <p className="hover:text-cyan-500 duration-200 ease-linear group-hover:-translate-y-1">
+                  Skills
+                </p>
+                <div className="opacity-0 w-0 border-b border-cyan-400 duration-200 ease-linear group-hover:opacity-100 group-hover:w-full"></div>
               </a>
-              <a
-                href="#"
-                className="text-slate-100/80 hover:text-slate-100 duration-300"
-              >
-                Contato
+              <a href="#" className="cursor-pointer group">
+                <p className="hover:text-cyan-500 duration-200 ease-linear group-hover:-translate-y-1">
+                  Contato
+                </p>
+                <div className="opacity-0 w-0 border-b border-cyan-400 duration-200 ease-linear group-hover:opacity-100 group-hover:w-full"></div>
               </a>
-            </div>
+            </nav>
 
-            {!openBar ? (
-              <div>
-                <button
+            <div>
+              {!openBar ? (
+                <FaBars
                   className="text-3xl cursor-pointer sm:hidden"
                   onClick={() => setOpenBar(true)}
-                >
-                  <FaBars />
-                </button>
-              </div>
-            ) : (
-              <div>
-                <button
+                />
+              ) : (
+                <MdOutlineClose
                   className="text-4xl cursor-pointer sm:hidden"
                   onClick={() => setOpenBar(false)}
-                >
-                  <MdOutlineClose />
-                </button>
-              </div>
-            )}
+                />
+              )}
+            </div>
           </div>
         </div>
 
         {openBar && (
-          <div className="sm:hidden w-full border-t-1 font-semibold border-neutral-600 mt-2 py-6 flex flex-col gap-2">
+          <nav className="sm:hidden w-full border-t-1 font-semibold border-neutral-600 mt-1 py-6 flex flex-col gap-2">
             <a
               href="#"
-              className="w-full pl-8 py-3 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              className="w-full pl-8 py-3 hover:text-cyan-500 hover:bg-neutral-700/20 duration-300 rounded-lg"
             >
               Home
             </a>
             <a
               href="#"
-              className="w-full pl-8 py-3 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              className="w-full pl-8 py-3 hover:text-cyan-500 hover:bg-neutral-700/20 duration-300 rounded-lg"
             >
               Sobre
             </a>
             <a
               href="#"
-              className="w-full pl-8 py-3 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              className="w-full pl-8 py-3 hover:text-cyan-500 hover:bg-neutral-700/20 duration-300 rounded-lg"
             >
               Skills
             </a>
             <a
               href="#"
-              className="w-full pl-8 py-3 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              className="w-full pl-8 py-3 hover:text-cyan-500 hover:bg-neutral-700/20 duration-300 rounded-lg"
             >
               Contato
             </a>
-          </div>
+          </nav>
         )}
       </div>
     </>
