@@ -43,7 +43,7 @@ const About = () => {
         <div className="border-l-1 max-w-4xl">
           <div className="ml-6">
             <h2>Sobre Mim</h2>
-            <h3 className="text-3xl font-semibold max-w-90 pt-2">
+            <h3 className="text-3xl font-semibold max-w-sm pt-2">
               Sou um Desenvolvedor Front End
             </h3>
 
@@ -52,8 +52,8 @@ const About = () => {
               tecnologia. Estou cursando o 5° período de ADS e em breve, ao
               terminar meu curso, iniciarei minha pós em Software Architecture.
               Busco me aprimorar mais a cada dia, aprofundando meus
-              conhecimentos em front-end, como libs e frameworks, UX/UI, SEO e
-              etc. <br />
+              conhecimentos em front-end, como libs e frameworks, UX/UI,
+              RestAPI, SEO e etc. <br />
               Busco integrar uma equipe de desenvolvimento onde possa aplicar
               minhas competências técnicas e soft skills. Meu objetivo é criar
               interfaces intuitivas e experiências de usuário envolventes,
