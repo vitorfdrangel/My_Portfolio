@@ -5,14 +5,15 @@ import { LiaCommentSolid } from "react-icons/lia";
 const About = () => {
   return (
     <div className="w-full flex flex-col gap-18">
-      <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto px-6 py-4 sm:px-10 rounded-xl flex items-center">
-        <div className="max-w-100 flex flex-col gap-3 flex-1">
-          <h2 className="">Olá, eu sou Vitor Rangel</h2>
+      <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center">
+        <div className="w-full flex flex-col gap-3 flex-1">
+          <div className="w-95">
+            <h2>Olá, eu sou Vitor Rangel</h2>
 
-          <div>
-            <h1 className="bg-gradient-to-r from-sky-500 to-blue-900 bg-clip-text text-transparent leading-14">
+            <h1 className="bg-gradient-to-r from-sky-500 to-blue-900 bg-clip-text text-transparent leading-14 mt-1">
               Desenvolvedor Front End
             </h1>
+
             <button className="bg-gradient-to-r from-sky-500 to-blue-900 hover:opacity-80 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
               Contate-me
             </button>
@@ -37,7 +38,7 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto px-6 py-4 sm:px-10 rounded-xl flex items-center relative">
+      <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center relative">
         <LiaCommentSolid className="text-7xl absolute -top-2 right-0 opacity-30 rounded-full sm:text-9xl" />
 
         <div className="border-l-1 max-w-4xl">
@@ -52,8 +53,8 @@ const About = () => {
               tecnologia. Estou cursando o 5° período de ADS e em breve, ao
               terminar meu curso, iniciarei minha pós em Software Architecture.
               Busco me aprimorar mais a cada dia, aprofundando meus
-              conhecimentos em front-end, como libs e frameworks, UX/UI,
-              RestAPI, SEO e etc. <br />
+              conhecimentos em front-end, como libs e frameworks, UX/UI, API
+              RESTful, SEO e etc. <br />
               Busco integrar uma equipe de desenvolvimento onde possa aplicar
               minhas competências técnicas e soft skills. Meu objetivo é criar
               interfaces intuitivas e experiências de usuário envolventes,

@@ -63,7 +63,7 @@ const Navbar = () => {
         </div>
 
         {openBar && (
-          <nav className="sm:hidden w-full border-t-1 font-semibold border-neutral-600 mt-1 py-6 flex flex-col gap-2">
+          <nav className="sm:hidden w-full border-t-1 font-semibold border-neutral-600 mt-1 py-6 flex flex-col gap-2 animate-showBar">
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-500 hover:bg-neutral-700/20 duration-300 rounded-lg"
