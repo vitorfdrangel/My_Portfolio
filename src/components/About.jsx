@@ -14,7 +14,7 @@ const About = () => {
               Desenvolvedor Front End
             </h1>
 
-            <button className="bg-gradient-to-r from-sky-500 to-blue-900 hover:opacity-80 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
+            <button className="bg-gradient-to-r from-sky-500 from-5% to-blue-900 to-95% hover:opacity-85 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
               Contate-me
             </button>
           </div>
