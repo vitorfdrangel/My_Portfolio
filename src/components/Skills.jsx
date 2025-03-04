@@ -1,11 +1,11 @@
 import { tech } from "../data/tech";
 
-import { FaTools } from "react-icons/fa";
+import { SlTarget } from "react-icons/sl";
 
 const Skills = () => {
   return (
-    <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto px-6 py-4 sm:px-10 rounded-xl flex flex-col gap-4 items-center relative">
-      <FaTools className="text-6xl absolute top-2.5 right-2.5 md:text-8xl md:right-3 opacity-20 " />
+    <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-4 items-center relative">
+      <SlTarget className="text-7xl absolute top-1 right-1 md:text-9xl opacity-20 " />
       <div>
         <h2>Skills</h2>
       </div>

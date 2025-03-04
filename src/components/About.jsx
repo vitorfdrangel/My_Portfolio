@@ -1,6 +1,5 @@
 import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { LiaCommentSolid } from "react-icons/lia";
+import { FaLinkedin, FaQuoteLeft } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -14,7 +13,7 @@ const About = () => {
               Desenvolvedor Front End
             </h1>
 
-            <button className="bg-gradient-to-r from-sky-500 from-5% to-blue-900 to-90% opacity-90 hover:opacity-100 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
+            <button className="bg-gradient-to-r from-sky-600 from-5% to-blue-900 to-90% hover:opacity-80 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
               Contate-me
             </button>
           </div>
@@ -39,7 +38,7 @@ const About = () => {
       </div>
 
       <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center relative">
-        <LiaCommentSolid className="text-7xl absolute -top-2 right-0 opacity-30 rounded-full md:text-9xl" />
+        <FaQuoteLeft className="text-6xl absolute top-0 right-1 md:right-2 opacity-30 md:text-8xl" />
 
         <div className="border-l-1 max-w-4xl">
           <div className="ml-6">
