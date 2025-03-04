@@ -14,7 +14,7 @@ const About = () => {
               Desenvolvedor Front End
             </h1>
 
-            <button className="bg-gradient-to-r from-sky-500 from-5% to-blue-900 to-95% hover:opacity-85 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
+            <button className="bg-gradient-to-r from-sky-500 from-5% to-blue-900 to-90% opacity-90 hover:opacity-100 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
               Contate-me
             </button>
           </div>
@@ -39,7 +39,7 @@ const About = () => {
       </div>
 
       <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center relative">
-        <LiaCommentSolid className="text-7xl absolute -top-2 right-0 opacity-30 rounded-full sm:text-9xl" />
+        <LiaCommentSolid className="text-7xl absolute -top-2 right-0 opacity-30 rounded-full md:text-9xl" />
 
         <div className="border-l-1 max-w-4xl">
           <div className="ml-6">
