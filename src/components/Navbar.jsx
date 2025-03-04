@@ -12,9 +12,9 @@ const Navbar = () => {
         <div className="w-full flex items-center justify-between">
           <div>
             <img
-              src="src/assets/logo.png"
+              src="src/assets/lovito.png"
               alt="Logo"
-              className="w-20 h-auto -ml-3"
+              className="w-22 h-auto -ml-3"
             />
           </div>
 
