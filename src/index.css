@@ -4,7 +4,7 @@
   --default-font-family: "Poppins";
 
   --animate-toUp: toUp 1.5s ease-in-out infinite;
-  --animate-showBar: showBar 0.8s ease-in-out;
+  --animate-showBar: showBar 0.6s ease-in-out;
 
   @keyframes toUp {
     0%,
