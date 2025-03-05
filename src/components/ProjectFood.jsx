@@ -4,7 +4,7 @@ import { projectFood } from "../data/imgProjects";
 
 const ProjectFood = () => {
   return (
-    <div className=" flex flex-col md:flex-row gap-2 md:gap-10 ">
+    <div className=" flex flex-col md:flex-row md:items-center gap-2 md:gap-10 ">
       <SliderProjects data={projectFood} />
 
       <div className="flex flex-col gap-5 md:border-l-1">

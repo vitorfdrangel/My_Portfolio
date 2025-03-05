@@ -7,12 +7,12 @@ const Projects = () => {
       <h2>Projetos</h2>
 
       <div className="flex flex-col gap-20">
-        <div className="bg-neutral-700 opacity-85 rounded-lg p-6 hover:opacity-100 duration-200">
+        <div className="bg-neutral-700 opacity-85 rounded-lg p-6 hover:opacity-100 duration-300">
           <ProjectFood />
           <div className="border-b-1 pt-10 md:hidden"></div>
         </div>
 
-        <div className="bg-neutral-700 opacity-85 rounded-lg p-6 hover:opacity-100 duration-200">
+        <div className="bg-neutral-700 opacity-85 rounded-lg p-6 hover:opacity-100 duration-300">
           <ProjectParty />
           <div className="border-b-1 pt-10 md:hidden"></div>
         </div>
