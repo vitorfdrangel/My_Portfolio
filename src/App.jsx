@@ -8,11 +8,28 @@ import UpBtn from "./components/UpBtn";
 function App() {
   return (
     <div className="px-6 pt-6 pb-20 flex flex-col gap-18 relative">
-      <Navbar />
-      <About />
-      <Skills />
-      <Projects />
-      <Contact />
+      <header>
+        <Navbar />
+      </header>
+
+      <main className="flex flex-col gap-18 ">
+        <section>
+          <About />
+        </section>
+
+        <section>
+          <Skills />
+        </section>
+
+        <section>
+          <Projects />
+        </section>
+      </main>
+
+      <footer>
+        <Contact />
+      </footer>
+
       <UpBtn />
     </div>
   );
