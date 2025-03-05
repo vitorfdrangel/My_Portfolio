@@ -5,7 +5,7 @@ import { FaAngleDoubleUp } from "react-icons/fa";
 const UpBtn = () => {
   const [showUp, setShowUp] = useState(false);
 
-  const showY = () => {
+  const handleShow = () => {
     if (window.scrollY >= 550) {
       setShowUp(true);
     } else {
@@ -17,7 +17,7 @@ const UpBtn = () => {
     scrollTo({ top: 0, behavior: "smooth" });
   };
 
-  window.addEventListener("scroll", showY);
+  window.addEventListener("scroll", handleShow);
 
   return (
     <>
