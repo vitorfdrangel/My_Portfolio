@@ -2,7 +2,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 import "swiper/css/pagination";
-import "swiper/css/navigation";
 import "swiper/css/effect-coverflow";
 
 import { Pagination, Autoplay, EffectCoverflow } from "swiper/modules";
@@ -14,9 +13,10 @@ const SliderProjects = ({ data }) => {
         slidesPerView={1}
         spaceBetween={10}
         grabCursor={true}
+        loop={true}
         pagination={{ dynamicBullets: true }}
+        autoplay={{ delay: 2500, disableOnInteraction: false }}
         effect="coverflow"
-        // autoplay={{ delay: 2500, disableOnInteraction: false }}
         modules={[Pagination, Autoplay, EffectCoverflow]}
         className="max-w-2xl w-full h-auto"
       >
