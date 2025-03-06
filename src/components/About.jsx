@@ -19,10 +19,13 @@ const About = () => {
           </div>
 
           <div className="flex gap-3 mt-5 items-center">
-            <a href="#">
+            <a href="https://github.com/vitorfdrangel" target="_blank">
               <FaGithub className="text-4xl opacity-85 hover:opacity-100 hover:scale-110 duration-200" />
             </a>
-            <a href="#">
+            <a
+              href="https://www.linkedin.com/in/vitorfdrangel/"
+              target="_blank"
+            >
               <FaLinkedin className=" text-4xl opacity-85 hover:opacity-100 hover:scale-110 duration-200" />
             </a>
           </div>

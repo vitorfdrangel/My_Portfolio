@@ -24,13 +24,14 @@ const Projects = () => {
       </div>
 
       <a
-        href="#"
-        className="flex items-center gap-1.5 self-end mt-6 group opacity-80 hover:opacity-100"
+        href="https://github.com/vitorfdrangel?tab=repositories"
+        target="_blank"
+        className="flex items-center gap-2 self-end mt-6 group opacity-80 hover:opacity-100"
       >
         <p className=" text-lg md:text-xl group-hover:text-cyan-600 duration-300">
           Ver projetos
         </p>
-        <FaArrowRight className="group-hover:translate-x-1 group-hover:fill-cyan-600 duration-200" />
+        <FaArrowRight className="text-xl group-hover:translate-x-1.5 group-hover:fill-cyan-600 group-hover:scale-110 duration-200" />
       </a>
     </div>
   );
