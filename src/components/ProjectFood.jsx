@@ -35,7 +35,7 @@ const ProjectFood = () => {
           </div>
         </div>
 
-        <p className="ml-4 pb-4">
+        <p className="ml-4 pb-4 cursor-default">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem nobis
           quod, cupiditate soluta cum laboriosam. Magnam nobis ullam minima
           accusantium reprehenderit optio? Aliquam voluptas corporis minus

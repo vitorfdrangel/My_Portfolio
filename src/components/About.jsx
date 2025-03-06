@@ -38,7 +38,7 @@ const About = () => {
       </div>
 
       <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center relative">
-        <FaQuoteLeft className="text-6xl absolute top-0 right-1 md:right-2 opacity-30 md:text-8xl" />
+        <FaQuoteLeft className="text-6xl absolute top-0 right-1 md:right-2 opacity-10 md:text-8xl" />
 
         <div className="border-l-1 max-w-4xl">
           <div className="ml-6">

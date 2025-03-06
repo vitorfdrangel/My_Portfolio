@@ -1,9 +1,13 @@
 import ProjectFood from "./ProjectFood";
 import ProjectParty from "./ProjectParty";
 
+import { FaCode } from "react-icons/fa";
+
 const Projects = () => {
   return (
-    <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-7">
+    <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-14 relative">
+      <FaCode className="absolute top-1 right-1 md:right-4 text-6xl md:text-8xl opacity-10" />
+
       <h2>Projetos</h2>
 
       <div className="flex flex-col gap-20">
