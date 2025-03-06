@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   const toContact = () => {
-    scrollTo({ top: 4000, behavior: "smooth" });
+    scrollTo({ top: 10000, behavior: "smooth" });
   };
 
   return (
