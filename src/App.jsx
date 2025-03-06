@@ -7,12 +7,12 @@ import UpBtn from "./components/UpBtn";
 
 function App() {
   return (
-    <div className="px-6 pt-6 pb-20 flex flex-col gap-18 relative">
+    <div className="px-6 pt-6 pb-20 flex flex-col gap-26 relative">
       <header>
         <Navbar />
       </header>
 
-      <main className="flex flex-col gap-18 ">
+      <main className="flex flex-col gap-26 ">
         <section>
           <About />
         </section>

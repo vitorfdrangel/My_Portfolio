@@ -2,6 +2,7 @@ import ProjectFood from "./ProjectFood";
 import ProjectParty from "./ProjectParty";
 
 import { FaCode } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -11,16 +12,26 @@ const Projects = () => {
       <h2>Projetos</h2>
 
       <div className="flex flex-col gap-20">
-        <div className="bg-neutral-700 opacity-85 rounded-lg p-6 hover:opacity-100 duration-300">
+        <div className="bg-neutral-700 opacity-85 rounded-lg p-6 hover:opacity-100 duration-300 shadow-2xl">
           <ProjectFood />
           <div className="border-b-1 pt-10 md:hidden"></div>
         </div>
 
-        <div className="bg-neutral-700 opacity-85 rounded-lg p-6 hover:opacity-100 duration-300">
+        <div className="bg-neutral-700 opacity-85 rounded-lg p-6 hover:opacity-100 duration-300 shadow-2xl">
           <ProjectParty />
           <div className="border-b-1 pt-10 md:hidden"></div>
         </div>
       </div>
+
+      <a
+        href="#"
+        className="flex items-center gap-1.5 self-end mt-6 group opacity-80 hover:opacity-100"
+      >
+        <p className=" text-lg md:text-xl group-hover:text-cyan-600 duration-300">
+          Ver projetos
+        </p>
+        <FaArrowRight className="group-hover:translate-x-1 group-hover:fill-cyan-600 duration-200" />
+      </a>
     </div>
   );
 };

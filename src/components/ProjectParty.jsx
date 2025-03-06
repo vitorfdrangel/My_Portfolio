@@ -29,8 +29,13 @@ const ProjectParty = () => {
             />
 
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sqlite/sqlite-original.svg"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg"
               className="w-7 h-auto"
+            />
+
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original.svg"
+              className="w-7 h-auto "
             />
           </div>
         </div>
@@ -45,14 +50,14 @@ const ProjectParty = () => {
         <div className="mt-auto ml-4">
           <a
             href="#"
-            className="bg-slate-50 text-zinc-800 hover:bg-zinc-500 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4"
+            className="bg-slate-50 text-zinc-800 hover:bg-cyan-600 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4"
           >
             Ver Projeto
           </a>
 
           <a
             href="#"
-            className="bg-slate-50 text-zinc-800 hover:bg-zinc-500 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4 ml-3"
+            className="bg-slate-50 text-zinc-800 hover:bg-cyan-600 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4 ml-3"
           >
             Repositório
           </a>
