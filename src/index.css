@@ -5,6 +5,8 @@
 
   --animate-toUp: toUp 1.5s ease-in-out infinite;
   --animate-showBar: showBar 0.6s ease-in-out;
+  --animate-showSectionRight: showSectionRight 0.7s ease-in-out;
+  --animate-showSectionLeft: showSectionLeft 0.7s ease-in-out;
 
   @keyframes toUp {
     0%,
@@ -25,6 +27,28 @@
     }
     100% {
       opacity: 1;
+    }
+  }
+
+  @keyframes showSectionRight {
+    0% {
+      opacity: 0;
+      transform: translatex(300px);
+    }
+    100% {
+      opacity: 1;
+      transform: translatex(0px);
+    }
+  }
+
+  @keyframes showSectionLeft {
+    0% {
+      opacity: 0;
+      transform: translatex(-300px);
+    }
+    100% {
+      opacity: 1;
+      transform: translatex(0px);
     }
   }
 }

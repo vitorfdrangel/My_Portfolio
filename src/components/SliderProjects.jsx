@@ -13,7 +13,6 @@ const SliderProjects = ({ data }) => {
         slidesPerView={1}
         spaceBetween={10}
         grabCursor={true}
-        loop={true}
         pagination={{ dynamicBullets: true }}
         autoplay={{ delay: 2500, disableOnInteraction: false }}
         effect="coverflow"

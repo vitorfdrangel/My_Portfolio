@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   return (
-    <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-7  relative">
+    <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-7 relative animate-showSectionRight">
       <MdOutlineContactPage className="absolute top-0 md:-top-1 -right-1 md:-right-3 text-7xl md:text-9xl opacity-20" />
 
       <h2>Contato</h2>
