@@ -56,7 +56,7 @@
   @keyframes showSectionBottom {
     0% {
       opacity: 0;
-      transform: translatey(250px);
+      transform: translatey(280px);
     }
     100% {
       opacity: 1;
