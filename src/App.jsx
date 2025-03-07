@@ -27,7 +27,7 @@ function App() {
         setShowProj(true);
       }
 
-      if (window.scrollY > 2550) {
+      if (window.scrollY > 2580) {
         setShowCont(true);
       }
     });
