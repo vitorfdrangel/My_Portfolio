@@ -4,26 +4,34 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import UpBtn from "./components/UpBtn.jsx";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [showSk, setShowSk] = useState(false);
   const [showProj, setShowProj] = useState(false);
   const [showCont, setShowCont] = useState(false);
 
-  window.addEventListener("scroll", () => {
-    if (window.scrollY > 470) {
-      setShowSk(true);
+  useEffect(() => {
+    if (window.location.reload) {
+      scrollTo({ top: 0, behavior: "auto" });
     }
+  }, []);
 
-    if (window.scrollY > 970) {
-      setShowProj(true);
-    }
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 470) {
+        setShowSk(true);
+      }
 
-    if (window.scrollY > 2550) {
-      setShowCont(true);
-    }
-  });
+      if (window.scrollY > 970) {
+        setShowProj(true);
+      }
+
+      if (window.scrollY > 2550) {
+        setShowCont(true);
+      }
+    });
+  }, []);
 
   return (
     <div className="px-6 pt-6 pb-20 flex flex-col gap-26 relative overflow-hidden">
