@@ -9,7 +9,7 @@ const Contact = () => {
 
       <h2>Contato</h2>
 
-      <div className="flex flex-col gap-5 font-semibold">
+      <div className="flex flex-col gap-4 font-semibold">
         <div className="flex items-center gap-3">
           <button className="bg-gradient-to-r from-sky-600 to-blue-900 p-2.5 rounded-full">
             <FiPhone className="text-2xl" />

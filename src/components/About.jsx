@@ -9,7 +9,7 @@ const About = () => {
           <div className="w-95">
             <h2>Olá, eu sou Vitor Rangel</h2>
 
-            <h1 className="bg-gradient-to-r from-sky-500 to-blue-900 bg-clip-text text-transparent leading-14 mt-1">
+            <h1 className="bg-gradient-to-r from-sky-500 to-blue-900 bg-clip-text text-transparent md:text-5xl leading-10 md:leading-14 mt-1">
               Desenvolvedor Front End
             </h1>
 

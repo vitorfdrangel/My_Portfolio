@@ -34,7 +34,7 @@ function App() {
   }, []);
 
   return (
-    <div className="px-6 pt-6 pb-20 flex flex-col gap-26 relative overflow-hidden">
+    <div className="p-4 pb-14 flex flex-col gap-26 relative overflow-hidden">
       <header>
         <Navbar />
       </header>

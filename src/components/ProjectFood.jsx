@@ -7,7 +7,7 @@ const ProjectFood = () => {
     <div className=" flex flex-col md:flex-row md:items-center gap-2 md:gap-6 ">
       <SliderProjects data={projectFood} />
 
-      <div className="flex flex-col gap-4 md:border-l-1">
+      <div className="flex flex-col gap-5 md:border-l-1">
         <div className="flex items-center justify-between ml-4">
           <h3 className="font-bold text-xl">Food - Delivery</h3>
 
@@ -51,10 +51,10 @@ const ProjectFood = () => {
           express, cors, nodemon, sqlite3.
         </p>
 
-        <div className="mt-auto ml-4">
+        <div className="mt-auto self-center md:self-start md:ml-4">
           <a
             href="#"
-            className="bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4"
+            className="bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2 md:py-2.5 px-2.5 md:px-3"
           >
             Ver Projeto
           </a>
@@ -62,7 +62,7 @@ const ProjectFood = () => {
           <a
             href="https://github.com/vitorfdrangel/Food"
             target="_blank"
-            className=" bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4 ml-3"
+            className=" bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2 md:py-2.5 px-2.5 md:px-3 ml-3"
           >
             Repositório
           </a>

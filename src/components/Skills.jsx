@@ -10,12 +10,12 @@ const Skills = () => {
         <h2>Skills</h2>
       </div>
 
-      <div className="w-full p-6 max-w-2xl flex gap-5 sm:gap-10 flex-wrap justify-center uppercase">
+      <div className="w-full p-6 max-w-2xl flex gap-5 sm:gap-10 flex-wrap justify-center items-center uppercase">
         {tech.length != 0 &&
           tech.map((item) => (
             <div
               key={item.name}
-              className="flex flex-col gap-3 items-center group cursor-default"
+              className="w-20 flex flex-col gap-3 items-center justify-center group cursor-default"
             >
               <img
                 src={item.src}

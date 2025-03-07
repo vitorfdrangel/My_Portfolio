@@ -7,7 +7,7 @@ const ProjectParty = () => {
     <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-6 ">
       <SliderProjects data={projectParty} />
 
-      <div className="flex flex-col gap-4 md:border-l-1">
+      <div className="flex flex-col gap-5 md:border-l-1">
         <div className="flex items-center justify-between ml-4">
           <h3 className="font-bold text-xl ">Have Your Party</h3>
 
@@ -56,11 +56,11 @@ const ProjectParty = () => {
           MongoDB, utilizando mongoose para me auxiliar.
         </p>
 
-        <div className="mt-auto ml-4">
+        <div className="mt-auto self-center md:self-start md:ml-4">
           <a
             href="https://have-your-party-git-main-vitor-rangels-projects-4d3973bd.vercel.app/"
             target="_blank"
-            className="bg-slate-50 text-zinc-800 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4"
+            className="bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2 md:py-2.5 px-2.5 md:px-3"
           >
             Ver Projeto
           </a>
@@ -68,7 +68,7 @@ const ProjectParty = () => {
           <a
             href="https://github.com/vitorfdrangel/Have_Your_Party"
             target="_blank"
-            className="bg-slate-50 text-zinc-800 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4 ml-3"
+            className=" bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2 md:py-2.5 px-2.5 md:px-3 ml-3"
           >
             Repositório
           </a>

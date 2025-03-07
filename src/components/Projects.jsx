@@ -14,19 +14,19 @@ const Projects = () => {
       <div className="flex flex-col gap-20">
         <div className="bg-neutral-700 hover:shadow-lg shadow-neutral-900/80 duration-300 rounded-lg p-6">
           <ProjectFood />
-          <div className="border-b-1 pt-10 md:hidden"></div>
+          <div className="border-b-1 pt-6 md:hidden"></div>
         </div>
 
         <div className="bg-neutral-700 hover:shadow-lg shadow-neutral-900/80 duration-300 rounded-lg p-6">
           <ProjectParty />
-          <div className="border-b-1 pt-10 md:hidden"></div>
+          <div className="border-b-1 pt-6 md:hidden"></div>
         </div>
       </div>
 
       <a
         href="https://github.com/vitorfdrangel?tab=repositories"
         target="_blank"
-        className="flex items-center gap-2 self-end mt-6 group opacity-80 hover:opacity-100"
+        className="flex items-center gap-2 self-end group opacity-80 hover:opacity-100"
       >
         <p className=" text-lg md:text-xl group-hover:text-cyan-600 duration-300">
           Ver projetos
