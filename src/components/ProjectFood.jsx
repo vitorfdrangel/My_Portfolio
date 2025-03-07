@@ -54,7 +54,7 @@ const ProjectFood = () => {
         <div className="mt-auto ml-4">
           <a
             href="#"
-            className="bg-slate-50 text-zinc-800 hover:bg-sky-600 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4"
+            className="bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4"
           >
             Ver Projeto
           </a>
@@ -62,7 +62,7 @@ const ProjectFood = () => {
           <a
             href="https://github.com/vitorfdrangel/Food"
             target="_blank"
-            className="bg-slate-50 text-zinc-800 hover:bg-sky-600 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4 ml-3"
+            className=" bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4 ml-3"
           >
             Repositório
           </a>

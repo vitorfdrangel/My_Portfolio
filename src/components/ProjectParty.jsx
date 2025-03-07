@@ -60,7 +60,7 @@ const ProjectParty = () => {
           <a
             href="https://have-your-party-git-main-vitor-rangels-projects-4d3973bd.vercel.app/"
             target="_blank"
-            className="bg-slate-50 text-zinc-800 hover:bg-sky-600 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4"
+            className="bg-slate-50 text-zinc-800 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4"
           >
             Ver Projeto
           </a>
@@ -68,7 +68,7 @@ const ProjectParty = () => {
           <a
             href="https://github.com/vitorfdrangel/Have_Your_Party"
             target="_blank"
-            className="bg-slate-50 text-zinc-800 hover:bg-sky-600 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4 ml-3"
+            className="bg-slate-50 text-zinc-800 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2.5 px-4 ml-3"
           >
             Repositório
           </a>

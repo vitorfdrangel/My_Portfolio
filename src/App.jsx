@@ -16,17 +16,17 @@ function App() {
       setShowSk(true);
     }
 
-    if (window.scrollY > 980) {
+    if (window.scrollY > 970) {
       setShowProj(true);
     }
 
-    if (window.scrollY > 2580) {
+    if (window.scrollY > 2570) {
       setShowCont(true);
     }
   });
 
   return (
-    <div className="px-6 pt-6 pb-20 flex flex-col gap-26 relative overflow-x-hidden">
+    <div className="px-6 pt-6 pb-20 flex flex-col gap-26 relative overflow-hidden">
       <header>
         <Navbar />
       </header>
