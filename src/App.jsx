@@ -1,9 +1,9 @@
-import Navbar from "./components/navbar";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import UpBtn from "./components/UpBtn";
+import Navbar from "./components/navbar.jsx";
+import About from "./components/About.jsx";
+import Skills from "./components/Skills.jsx";
+import Projects from "./components/Projects.jsx";
+import Contact from "./components/Contact.jsx";
+import UpBtn from "./components/UpBtn.jsx";
 import { useState } from "react";
 
 function App() {
