@@ -33,7 +33,7 @@ const About = () => {
 
         <div className="hidden sm:flex flex-1 justify-end">
           <img
-            src="../src/assets/image.png"
+            src="https://i.postimg.cc/pLrn2MpN/image.png"
             alt="Minha foto"
             className="w-60 rounded-full"
           />
