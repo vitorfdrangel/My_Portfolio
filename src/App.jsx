@@ -53,17 +53,17 @@ function App() {
         </section>
 
         <motion.section
-          initial={{ opacity: 0, translateX: 400 }}
+          initial={{ opacity: 0, translateX: 300 }}
           whileInView={{ opacity: 1, translateX: 0 }}
-          transition={{ duration: 0.6, ease: "easeInOut" }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           <Skills skRef={skRef} />
         </motion.section>
 
         <motion.section
-          initial={{ opacity: 0, translateX: -400 }}
+          initial={{ opacity: 0, translateX: -300 }}
           whileInView={{ opacity: 1, translateX: 0 }}
-          transition={{ duration: 0.6, ease: "easeInOut" }}
+          transition={{ duration: 0.8, ease: "easeInOut" }}
         >
           <Projects projRef={projRef} />
         </motion.section>
@@ -72,7 +72,7 @@ function App() {
       <motion.footer
         initial={{ opacity: 0, translateY: 150 }}
         whileInView={{ opacity: 1, translateY: 0 }}
-        transition={{ duration: 0.6, ease: "easeInOut" }}
+        transition={{ duration: 0.8, ease: "easeInOut" }}
       >
         <Contact cttRef={cttRef} />
       </motion.footer>

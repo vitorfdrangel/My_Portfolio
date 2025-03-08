@@ -4,7 +4,6 @@
   --default-font-family: "Poppins";
 
   --animate-toUp: toUp 1.2s ease-in-out infinite;
-  --animate-showBar: showBar 0.6s ease-in-out;
 
   @keyframes toUp {
     0%,
@@ -13,18 +12,6 @@
     }
     50% {
       transform: translatey(0);
-    }
-  }
-
-  @keyframes showBar {
-    0% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 0.8;
-    }
-    100% {
-      opacity: 1;
     }
   }
 }

@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import { motion } from "motion/react";
+
 import { FaBars } from "react-icons/fa6";
 import { MdOutlineClose } from "react-icons/md";
 
@@ -82,7 +84,12 @@ const Navbar = ({ toRef }) => {
         </div>
 
         {openBar && (
-          <nav className="sm:hidden w-full border-t-1 font-semibold border-neutral-600 mt-5 pt-5 flex flex-col gap-2 animate-showBar">
+          <motion.nav
+            initial={{ opacity: 0, translateY: -50 }}
+            whileInView={{ opacity: 1, translateY: 0 }}
+            transition={{ duration: 0.8, ease: "backOut" }}
+            className="sm:hidden w-full border-t-1 font-semibold border-neutral-600 mt-5 pt-5 flex flex-col gap-2 "
+          >
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
@@ -114,7 +121,7 @@ const Navbar = ({ toRef }) => {
             >
               Contato
             </a>
-          </nav>
+          </motion.nav>
         )}
       </div>
     </>
