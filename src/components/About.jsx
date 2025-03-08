@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaQuoteLeft } from "react-icons/fa";
 
-const About = () => {
+const About = ({ abtRef }) => {
   return (
     <div className="w-full flex flex-col gap-18">
       <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center">
@@ -40,7 +40,10 @@ const About = () => {
         </div>
       </div>
 
-      <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center relative">
+      <div
+        className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center relative"
+        ref={abtRef}
+      >
         <FaQuoteLeft className="text-6xl absolute top-0 right-1 md:right-2 opacity-10 md:text-8xl" />
 
         <div className="border-l-1 max-w-4xl">

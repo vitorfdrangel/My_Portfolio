@@ -3,24 +3,8 @@ import { useState } from "react";
 import { FaBars } from "react-icons/fa6";
 import { MdOutlineClose } from "react-icons/md";
 
-const Navbar = () => {
+const Navbar = ({ toRef }) => {
   const [openBar, setOpenBar] = useState(false);
-
-  const toAbout = () => {
-    scrollTo({ top: 600, behavior: "smooth" });
-  };
-
-  const toSkills = () => {
-    scrollTo({ top: 1300, behavior: "smooth" });
-  };
-
-  const toProjects = () => {
-    scrollTo({ top: 1750, behavior: "smooth" });
-  };
-
-  const toContact = () => {
-    scrollTo({ top: 10000, behavior: "smooth" });
-  };
 
   return (
     <>
@@ -36,28 +20,44 @@ const Navbar = () => {
 
           <div>
             <nav className="hidden sm:flex gap-8 text-lg font-semibold">
-              <a href="#" className="cursor-pointer group" onClick={toAbout}>
+              <a
+                href="#"
+                className="cursor-pointer group"
+                onClick={(e) => toRef(e.target.innerText)}
+              >
                 <p className="hover:text-cyan-600 duration-200 ease-linear group-hover:-translate-y-1">
                   Sobre
                 </p>
                 <div className="opacity-0 w-0 border-b border-cyan-500 duration-200 ease-linear group-hover:opacity-100 group-hover:w-full"></div>
               </a>
 
-              <a href="#" className="cursor-pointer group" onClick={toSkills}>
+              <a
+                href="#"
+                className="cursor-pointer group"
+                onClick={(e) => toRef(e.target.innerText)}
+              >
                 <p className="hover:text-cyan-600 duration-200 ease-linear group-hover:-translate-y-1">
                   Skills
                 </p>
                 <div className="opacity-0 w-0 border-b border-cyan-500 duration-200 ease-linear group-hover:opacity-100 group-hover:w-full"></div>
               </a>
 
-              <a href="#" className="cursor-pointer group" onClick={toProjects}>
+              <a
+                href="#"
+                className="cursor-pointer group"
+                onClick={(e) => toRef(e.target.innerText)}
+              >
                 <p className="hover:text-cyan-600 duration-200 ease-linear group-hover:-translate-y-1">
                   Projetos
                 </p>
                 <div className="opacity-0 w-0 border-b border-cyan-500 duration-200 ease-linear group-hover:opacity-100 group-hover:w-full"></div>
               </a>
 
-              <a href="#" className="cursor-pointer group" onClick={toContact}>
+              <a
+                href="#"
+                className="cursor-pointer group"
+                onClick={(e) => toRef(e.target.innerText)}
+              >
                 <p className="hover:text-cyan-600 duration-200 ease-linear group-hover:-translate-y-1">
                   Contato
                 </p>

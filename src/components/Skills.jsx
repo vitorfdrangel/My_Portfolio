@@ -2,9 +2,12 @@ import { tech } from "../data/tech";
 
 import { SlTarget } from "react-icons/sl";
 
-const Skills = () => {
+const Skills = ({ skRef }) => {
   return (
-    <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-6 items-center relative animate-showSectionRight">
+    <div
+      className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-6 items-center relative animate-showSectionRight"
+      ref={skRef}
+    >
       <SlTarget className="text-7xl absolute top-1 right-1 md:text-9xl opacity-10 " />
       <div>
         <h2>Skills</h2>
