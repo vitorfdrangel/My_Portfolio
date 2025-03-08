@@ -4,7 +4,10 @@ import Skills from "./components/Skills.jsx";
 import Projects from "./components/Projects.jsx";
 import Contact from "./components/Contact.jsx";
 import UpBtn from "./components/UpBtn.jsx";
+
 import { useEffect, useRef } from "react";
+
+import { motion } from "motion/react";
 
 function App() {
   const abtRef = useRef(null);
@@ -38,29 +41,6 @@ function App() {
     }
   }, []);
 
-  const observer = new IntersectionObserver((entries) => {
-    let id = entries[0].target.id;
-    let classlist = entries[0].target.classList;
-
-    if (id == "showR") {
-      classlist.add("animate-showSectionRight");
-    }
-
-    if (id == "showL") {
-      classlist.add("animate-showSectionLeft");
-    }
-
-    if (id == "showB") {
-      classlist.add("animate-showSectionBottom");
-    }
-  });
-
-  useEffect(() => {
-    Array.from(document.querySelectorAll(".reveal")).map((e) => {
-      observer.observe(e);
-    });
-  }, []);
-
   return (
     <div className="p-4 pb-14 flex flex-col gap-26 relative overflow-hidden">
       <header>
@@ -72,18 +52,30 @@ function App() {
           <About abtRef={abtRef} />
         </section>
 
-        <section id="showR" className="reveal">
+        <motion.section
+          initial={{ opacity: 0, translateX: 400 }}
+          whileInView={{ opacity: 1, translateX: 0 }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
+        >
           <Skills skRef={skRef} />
-        </section>
+        </motion.section>
 
-        <section id="showL" className="reveal">
+        <motion.section
+          initial={{ opacity: 0, translateX: -400 }}
+          whileInView={{ opacity: 1, translateX: 0 }}
+          transition={{ duration: 0.6, ease: "easeInOut" }}
+        >
           <Projects projRef={projRef} />
-        </section>
+        </motion.section>
       </main>
 
-      <footer id="showB" className="reveal">
+      <motion.footer
+        initial={{ opacity: 0, translateY: 150 }}
+        whileInView={{ opacity: 1, translateY: 0 }}
+        transition={{ duration: 0.6, ease: "easeInOut" }}
+      >
         <Contact cttRef={cttRef} />
-      </footer>
+      </motion.footer>
 
       <UpBtn />
     </div>

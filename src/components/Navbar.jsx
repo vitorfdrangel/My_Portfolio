@@ -86,6 +86,7 @@ const Navbar = ({ toRef }) => {
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              onClick={(e) => toRef(e.target.innerText)}
             >
               Sobre
             </a>
@@ -93,6 +94,7 @@ const Navbar = ({ toRef }) => {
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              onClick={(e) => toRef(e.target.innerText)}
             >
               Skills
             </a>
@@ -100,6 +102,7 @@ const Navbar = ({ toRef }) => {
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              onClick={(e) => toRef(e.target.innerText)}
             >
               Projetos
             </a>
@@ -107,6 +110,7 @@ const Navbar = ({ toRef }) => {
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              onClick={(e) => toRef(e.target.innerText)}
             >
               Contato
             </a>

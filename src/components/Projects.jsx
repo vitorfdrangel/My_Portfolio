@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 const Projects = ({ projRef }) => {
   return (
     <div
-      className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-14 relative animate-showSectionLeft"
+      className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-14 relative"
       ref={projRef}
     >
       <FaCode className="absolute top-1 right-1 md:right-4 text-6xl md:text-8xl opacity-10" />
