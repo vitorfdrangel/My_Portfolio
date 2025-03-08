@@ -19,19 +19,19 @@ function App() {
   const toRef = (ref) => {
     switch (ref) {
       case (ref = "Sobre"):
-        abtRef.current.scrollIntoView({ behavior: "smooth" });
+        abtRef.current.scrollIntoView();
         break;
 
       case (ref = "Skills"):
-        skRef.current.scrollIntoView({ behavior: "smooth" });
+        skRef.current.scrollIntoView();
         break;
 
       case (ref = "Projetos"):
-        projRef.current.scrollIntoView({ behavior: "smooth" });
+        projRef.current.scrollIntoView();
         break;
 
       case (ref = "Contato"):
-        cttRef.current.scrollIntoView({ behavior: "smooth" });
+        cttRef.current.scrollIntoView();
         break;
     }
   };
@@ -57,7 +57,6 @@ function App() {
       }
     });
   }, []);
-
   return (
     <div className="p-4 pb-14 flex flex-col gap-26 relative overflow-hidden">
       <header>
