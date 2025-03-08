@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import { FaAngleDoubleUp } from "react-icons/fa";
 
-const UpBtn = ({ navRef }) => {
+const UpBtn = () => {
   const [showUp, setShowUp] = useState(false);
 
   const handleShow = () => {
@@ -21,7 +21,7 @@ const UpBtn = ({ navRef }) => {
         <div className="fixed bottom-8 right-5 sm:right-10">
           <button
             className="p-3 rounded-full bg-sky-600/70 hover:bg-sky-600/100 duration-300 animate-toUp cursor-pointer"
-            onClick={() => navRef.current.scrollIntoView()}
+            onClick={() => scrollTo({ top: 0 })}
           >
             <FaAngleDoubleUp className="text-2xl" />
           </button>

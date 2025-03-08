@@ -10,11 +10,11 @@ import { useEffect, useRef } from "react";
 import { motion } from "motion/react";
 
 function App() {
-  const navRef = useRef();
-  const abtRef = useRef();
-  const skRef = useRef();
-  const projRef = useRef();
-  const cttRef = useRef();
+  const navRef = useRef(null);
+  const abtRef = useRef(null);
+  const skRef = useRef(null);
+  const projRef = useRef(null);
+  const cttRef = useRef(null);
 
   useEffect(() => {
     if (window.location.reload) {
@@ -58,7 +58,7 @@ function App() {
         <Contact cttRef={cttRef} />
       </motion.footer>
 
-      <UpBtn navRef={navRef} />
+      <UpBtn />
     </div>
   );
 }
