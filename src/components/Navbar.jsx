@@ -5,12 +5,17 @@ import { motion } from "motion/react";
 import { FaBars } from "react-icons/fa6";
 import { MdOutlineClose } from "react-icons/md";
 
-const Navbar = ({ toRef }) => {
+const Navbar = ({ refs }) => {
   const [openBar, setOpenBar] = useState(false);
+
+  const { navRef, abtRef, skRef, projRef, cttRef } = refs;
 
   return (
     <>
-      <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl">
+      <div
+        className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl"
+        ref={navRef}
+      >
         <div className="w-full flex items-center justify-between">
           <div>
             <img
@@ -25,7 +30,7 @@ const Navbar = ({ toRef }) => {
               <a
                 href="#"
                 className="cursor-pointer group"
-                onClick={(e) => toRef(e.target.innerText)}
+                onClick={() => abtRef.current.scrollIntoView()}
               >
                 <p className="hover:text-cyan-600 duration-200 ease-linear group-hover:-translate-y-1">
                   Sobre
@@ -36,7 +41,7 @@ const Navbar = ({ toRef }) => {
               <a
                 href="#"
                 className="cursor-pointer group"
-                onClick={(e) => toRef(e.target.innerText)}
+                onClick={() => skRef.current.scrollIntoView()}
               >
                 <p className="hover:text-cyan-600 duration-200 ease-linear group-hover:-translate-y-1">
                   Skills
@@ -47,7 +52,7 @@ const Navbar = ({ toRef }) => {
               <a
                 href="#"
                 className="cursor-pointer group"
-                onClick={(e) => toRef(e.target.innerText)}
+                onClick={() => projRef.current.scrollIntoView()}
               >
                 <p className="hover:text-cyan-600 duration-200 ease-linear group-hover:-translate-y-1">
                   Projetos
@@ -58,7 +63,7 @@ const Navbar = ({ toRef }) => {
               <a
                 href="#"
                 className="cursor-pointer group"
-                onClick={(e) => toRef(e.target.innerText)}
+                onClick={() => cttRef.current.scrollIntoView()}
               >
                 <p className="hover:text-cyan-600 duration-200 ease-linear group-hover:-translate-y-1">
                   Contato
@@ -93,7 +98,7 @@ const Navbar = ({ toRef }) => {
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
-              onClick={(e) => toRef(e.target.innerText)}
+              onClick={() => abtRef.current.scrollIntoView()}
             >
               Sobre
             </a>
@@ -101,7 +106,7 @@ const Navbar = ({ toRef }) => {
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
-              onClick={(e) => toRef(e.target.innerText)}
+              onClick={() => skRef.current.scrollIntoView()}
             >
               Skills
             </a>
@@ -109,7 +114,7 @@ const Navbar = ({ toRef }) => {
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
-              onClick={(e) => toRef(e.target.innerText)}
+              onClick={() => projRef.current.scrollIntoView()}
             >
               Projetos
             </a>
@@ -117,7 +122,7 @@ const Navbar = ({ toRef }) => {
             <a
               href="#"
               className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
-              onClick={(e) => toRef(e.target.innerText)}
+              onClick={() => cttRef.current.scrollIntoView()}
             >
               Contato
             </a>
