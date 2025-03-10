@@ -56,7 +56,7 @@ const ProjectParty = () => {
           MongoDB, utilizando mongoose para me auxiliar.
         </p>
 
-        <div className="mt-auto self-center md:self-start md:ml-4">
+        <div className="mt-4 ml-4">
           <a
             href="https://have-your-party-git-main-vitor-rangels-projects-4d3973bd.vercel.app/"
             target="_blank"

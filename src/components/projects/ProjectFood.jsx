@@ -51,7 +51,7 @@ const ProjectFood = () => {
           express, cors, nodemon, sqlite3.
         </p>
 
-        <div className="mt-auto self-center md:self-start md:ml-4">
+        <div className="mt-4 ml-4">
           <a
             href="https://vrlfood.vercel.app/"
             target="_blank"
