@@ -1,7 +1,7 @@
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin, FaQuoteLeft } from "react-icons/fa";
 
-const About = ({ abtRef }) => {
+const About = ({ abtRef, cttRef }) => {
   return (
     <div className="w-full flex flex-col gap-18">
       <div className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex items-center">
@@ -13,9 +13,11 @@ const About = ({ abtRef }) => {
               Desenvolvedor Front End
             </h1>
 
-            <button className="bg-gradient-to-r from-sky-600 from-5% to-blue-900 to-90% hover:opacity-80 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
-              Contate-me
-            </button>
+            <a href="#" onClick={() => cttRef.current.scrollIntoView()}>
+              <button className="bg-gradient-to-r from-sky-600 from-5% to-blue-900 to-90% hover:opacity-80 duration-300 cursor-pointer mt-5 py-2.5 px-5 text-lg font-semibold rounded-full">
+                Contate-me
+              </button>
+            </a>
           </div>
 
           <div className="flex gap-3 mt-5 items-center">

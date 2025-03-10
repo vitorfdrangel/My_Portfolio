@@ -53,7 +53,7 @@ const ProjectFood = () => {
 
         <div className="mt-auto self-center md:self-start md:ml-4">
           <a
-            href="https://haveyourparty.vercel.app/"
+            href="https://vrlfood.vercel.app/"
             target="_blank"
             className="bg-slate-50 text-zinc-700 hover:bg-sky-600/90 hover:text-slate-50 duration-300 font-semibold rounded-full py-2 md:py-2.5 px-2.5 md:px-3"
           >

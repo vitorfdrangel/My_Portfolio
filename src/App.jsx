@@ -30,7 +30,7 @@ function App() {
 
       <main className="flex flex-col gap-26 ">
         <section>
-          <About abtRef={abtRef} />
+          <About abtRef={abtRef} cttRef={cttRef} />
         </section>
 
         <motion.section
