@@ -1,6 +1,6 @@
-import SliderProjects from "./SliderProjects";
+import SliderProjects from "../SliderProjects";
 
-import { projectParty } from "../data/imgProjects";
+import { projectParty } from "../../data/imgProjects";
 
 const ProjectParty = () => {
   return (

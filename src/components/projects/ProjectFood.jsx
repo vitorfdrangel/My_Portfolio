@@ -1,6 +1,6 @@
-import SliderProjects from "./SliderProjects";
+import SliderProjects from "../SliderProjects";
 
-import { projectFood } from "../data/imgProjects";
+import { projectFood } from "../../data/imgProjects";
 
 const ProjectFood = () => {
   return (

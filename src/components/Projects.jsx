@@ -1,5 +1,5 @@
-import ProjectFood from "./ProjectFood";
-import ProjectParty from "./ProjectParty";
+import ProjectFood from "./projects/ProjectFood";
+import ProjectParty from "./projects/ProjectParty";
 
 import { FaCode } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
