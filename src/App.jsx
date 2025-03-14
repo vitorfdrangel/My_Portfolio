@@ -33,30 +33,36 @@ function App() {
           <About abtRef={abtRef} cttRef={cttRef} />
         </section>
 
-        <motion.section
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.9, ease: "easeInOut" }}
-        >
-          <Skills skRef={skRef} />
-        </motion.section>
+        <section>
+          <motion.section
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.9, ease: "easeInOut" }}
+          >
+            <Skills skRef={skRef} />
+          </motion.section>
+        </section>
 
-        <motion.section
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          transition={{ duration: 0.9, ease: "easeInOut" }}
-        >
-          <Projects projRef={projRef} />
-        </motion.section>
+        <section>
+          <motion.section
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.9, ease: "easeInOut" }}
+          >
+            <Projects projRef={projRef} />
+          </motion.section>
+        </section>
       </main>
 
-      <motion.footer
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        transition={{ duration: 0.9, ease: "easeInOut" }}
-      >
-        <Contact cttRef={cttRef} />
-      </motion.footer>
+      <footer>
+        <motion.footer
+          initial={{ opacity: 0 }}
+          whileInView={{ opacity: 1 }}
+          transition={{ duration: 0.9, ease: "easeInOut" }}
+        >
+          <Contact cttRef={cttRef} />
+        </motion.footer>
+      </footer>
 
       <UpBtn />
     </div>
