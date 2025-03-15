@@ -55,7 +55,7 @@ const About = ({ abtRef, cttRef }) => {
               Sou um Desenvolvedor Front End
             </h3>
 
-            <p className="mt-4 text-lg sm:leading-8">
+            <p className="mt-4 text-lg sm:leading-8 cursor-default">
               Olá, sou o Vitor, tenho 26 anos e sou apaixonado por programação e
               tecnologia. Estou cursando o 5° período de ADS e em breve, ao
               terminar meu curso, iniciarei minha pós em Software Architecture.
