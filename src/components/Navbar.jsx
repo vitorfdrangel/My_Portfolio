@@ -97,7 +97,7 @@ const Navbar = ({ refs }) => {
           >
             <a
               href="#"
-              className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              className="w-full pl-8 py-3 hover:bg-neutral-700/20 duration-300 rounded-lg"
               onClick={() => abtRef.current.scrollIntoView()}
             >
               Sobre
@@ -105,7 +105,7 @@ const Navbar = ({ refs }) => {
 
             <a
               href="#"
-              className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              className="w-full pl-8 py-3 hover:bg-neutral-700/20 duration-300 rounded-lg"
               onClick={() => skRef.current.scrollIntoView()}
             >
               Skills
@@ -113,7 +113,7 @@ const Navbar = ({ refs }) => {
 
             <a
               href="#"
-              className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              className="w-full pl-8 py-3 hover:bg-neutral-700/20 duration-300 rounded-lg"
               onClick={() => projRef.current.scrollIntoView()}
             >
               Projetos
@@ -121,7 +121,7 @@ const Navbar = ({ refs }) => {
 
             <a
               href="#"
-              className="w-full pl-8 py-3 hover:text-cyan-600 hover:bg-neutral-700/20 duration-300 rounded-lg"
+              className="w-full pl-8 py-3 hover:bg-neutral-700/20 duration-300 rounded-lg"
               onClick={() => cttRef.current.scrollIntoView()}
             >
               Contato
