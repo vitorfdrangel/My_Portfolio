@@ -31,10 +31,8 @@ const Projects = ({ projRef }) => {
         target="_blank"
         className="flex items-center gap-2 self-end group opacity-80 hover:opacity-100"
       >
-        <p className=" text-lg md:text-xl group-hover:text-cyan-600 duration-300">
-          Ver projetos
-        </p>
-        <FaArrowRight className="text-xl group-hover:translate-x-1.5 group-hover:fill-cyan-600 group-hover:scale-110 duration-200" />
+        <p className=" text-lg md:text-xl duration-300">Ver projetos</p>
+        <FaArrowRight className="text-xl group-hover:translate-x-1.5 group-hover:scale-110 duration-200" />
       </a>
     </div>
   );
