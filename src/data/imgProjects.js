@@ -9,6 +9,12 @@ import img8 from "../img/foodImg/pass8.png";
 import img9 from "../img/foodImg/pass9.png";
 import img10 from "../img/foodImg/pass10.png";
 
+import fnc1 from "../img/financeImg/finance1.png";
+import fnc2 from "../img/financeImg/finance2.png";
+import fnc3 from "../img/financeImg/finance3.png";
+import fnc4 from "../img/financeImg/finance4.png";
+import fnc5 from "../img/financeImg/finance5.png";
+
 const projectFood = [
   { img: img1, id: "1" },
   { img: img2, id: "2" },
@@ -20,6 +26,14 @@ const projectFood = [
   { img: img8, id: "8" },
   { img: img9, id: "9" },
   { img: img10, id: "10" },
+];
+
+const projectFinance = [
+  { img: fnc1, id: "1" },
+  { img: fnc2, id: "2" },
+  { img: fnc3, id: "3" },
+  { img: fnc4, id: "4" },
+  { img: fnc5, id: "5" },
 ];
 
 const projectParty = [
@@ -69,4 +83,4 @@ const projectParty = [
   },
 ];
 
-export { projectFood, projectParty };
+export { projectFood, projectFinance, projectParty };

@@ -14,7 +14,7 @@ const SliderProjects = ({ data }) => {
         spaceBetween={10}
         grabCursor={true}
         pagination={{ dynamicBullets: true }}
-        autoplay={{ delay: 2500, disableOnInteraction: false }}
+        autoplay={{ delay: 3000, disableOnInteraction: false }}
         effect="coverflow"
         modules={[Pagination, Autoplay, EffectCoverflow]}
         className="max-w-2xl w-full h-auto"
