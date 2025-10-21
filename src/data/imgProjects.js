@@ -14,6 +14,7 @@ import fnc2 from "../img/financeImg/finance2.png";
 import fnc3 from "../img/financeImg/finance3.png";
 import fnc4 from "../img/financeImg/finance4.png";
 import fnc5 from "../img/financeImg/finance5.png";
+import fnc6 from "../img/financeImg/finance6.png";
 
 const projectFood = [
   { img: img1, id: "1" },
@@ -34,6 +35,7 @@ const projectFinance = [
   { img: fnc3, id: "3" },
   { img: fnc4, id: "4" },
   { img: fnc5, id: "5" },
+  { img: fnc6, id: "6" },
 ];
 
 const projectParty = [

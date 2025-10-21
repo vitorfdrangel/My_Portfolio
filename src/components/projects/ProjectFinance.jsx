@@ -39,8 +39,8 @@ const ProjectFinance = () => {
           <span className="font-semibold text-lg">
             Saas de gestão financeira
           </span>{" "}
-          O VRL-Finance é um SaaS moderno de gestão financeira pessoal,
-          desenvolvido com Next.js, TailwindCSS, PostgreSQL, Prisma, Clerk e
+          O VRL-Finance é um SaaS moderno de gestão financeira com insights de
+          IA, desenvolvido com Next.js, TailwindCSS, PostgreSQL, Prisma, Clerk e
           Stripe. A plataforma permite registrar, visualizar e analisar
           transações financeiras — categorizadas como despesas, depósitos e
           investimentos — oferecendo uma dashboard intuitiva e visual, com
