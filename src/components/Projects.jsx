@@ -1,11 +1,17 @@
+import ProjectDoctors from "./projects/ProjectDoctors";
 import ProjectFinance from "./projects/ProjectFinance";
 import ProjectFood from "./projects/ProjectFood";
-import ProjectParty from "./projects/ProjectParty";
 
 import { FaCode } from "react-icons/fa";
 import { FaArrowRight } from "react-icons/fa";
 
 const Projects = ({ projRef }) => {
+  const projectsList = [
+    <ProjectDoctors />,
+    <ProjectFinance />,
+    <ProjectFood />,
+  ];
+
   return (
     <div
       className="bg-neutral-800 w-full max-w-6xl h-auto mx-auto p-6 sm:px-10 rounded-xl flex flex-col gap-14 relative"
@@ -16,20 +22,15 @@ const Projects = ({ projRef }) => {
       <h2>Projetos</h2>
 
       <div className="flex flex-col gap-20">
-        <div className="bg-neutral-700 hover:shadow-lg shadow-neutral-900/80 duration-300 rounded-lg p-6">
-          <ProjectFinance />
-          <div className="border-b-1 pt-6 md:hidden"></div>
-        </div>
-
-        <div className="bg-neutral-700 hover:shadow-lg shadow-neutral-900/80 duration-300 rounded-lg p-6">
-          <ProjectFood />
-          <div className="border-b-1 pt-6 md:hidden"></div>
-        </div>
-
-        <div className="bg-neutral-700 hover:shadow-lg shadow-neutral-900/80 duration-300 rounded-lg p-6">
-          <ProjectParty />
-          <div className="border-b-1 pt-6 md:hidden"></div>
-        </div>
+        {projectsList.map((project, index) => (
+          <div
+            key={index}
+            className="bg-neutral-700 hover:shadow-lg shadow-neutral-900/80 duration-300 rounded-lg p-6"
+          >
+            <div className="border-b-1 pt-6 md:hidden"></div>
+            {project}
+          </div>
+        ))}
       </div>
 
       <a
