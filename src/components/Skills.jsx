@@ -14,20 +14,19 @@ const Skills = ({ skRef }) => {
       </div>
 
       <div className="w-full p-6 max-w-2xl flex gap-5 sm:gap-10 flex-wrap justify-center items-center uppercase">
-        {tech.length != 0 &&
-          tech.map((item) => (
-            <div
-              key={item.name}
-              className="w-20 flex flex-col gap-3 items-center justify-center group cursor-default"
-            >
-              <img
-                src={item.src}
-                alt={item.name}
-                className="w-10 sm:w-14 group-hover:scale-105 duration-200"
-              />
-              <p>{item.name}</p>
-            </div>
-          ))}
+        {tech.map((item) => (
+          <div
+            key={item.name}
+            className="w-20 flex flex-col gap-3 items-center justify-center group cursor-default"
+          >
+            <img
+              src={item.src}
+              alt={item.name}
+              className="w-10 sm:w-14 group-hover:scale-105 duration-200"
+            />
+            <p>{item.name}</p>
+          </div>
+        ))}
       </div>
     </div>
   );

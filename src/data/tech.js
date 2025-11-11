@@ -34,6 +34,11 @@ export const tech = [
   },
 
   {
+    src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg",
+    name: "next",
+  },
+
+  {
     src: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg",
     name: "git",
   },
